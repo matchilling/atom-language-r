@@ -126,6 +126,10 @@
         'match': '\\.[0-9]+(?:(e|E)(\\+|-)?[0-9]+)?\\b'
         'name': 'constant.numeric.float.decimal.r'
       }
+      {
+        'match': '(<=|>=)'
+        'name': 'keyword.operator.comparison.r'
+      }
     ]
   }
   'general-variables': {
